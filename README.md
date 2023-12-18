@@ -30,7 +30,7 @@ The good part of this approach is that the predictions are returned in FHE to th
 #### MFCC features
 MFCC stands for Mel Frequency Cepstral Coefficients. MFCCs are widely used as discriminating features for audio datasets. 
 ![mfcc](mfcc_space.png)
-The above plot depicts the discriminating feature of MFCC of the `fma` dataset where two different genre form different clusters.
+The above plot depicts the discriminating feature of MFCC on a subset of the `fma` dataset where two different genre form different clusters.
 
 ## Using the Repository
 

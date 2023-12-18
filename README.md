@@ -40,6 +40,8 @@ To run the notebook just modify the constants in the constants section.
 - MFCC_SAMPLES_PER_SEC: By default two mfcc features are generated per second for a sample, You can generate more samples per second for better accuracy or reduce this to reduce the number of features in training database.
 - NUM_SONGS: The number of songs in the training set that you want to consider for training. 
 
+After making these modifications you also need to provide a truth_label dictionary to the `evaluate` function for evaluation. Here `truth_label(song_name) = song_id`.
+
 Alternatively there is also a `client.py` and a `train.py` file for production deployment. To use them follow the instructions here [Deployment Guide](https://github.com/zama-ai/concrete-ml/blob/release/1.3.x/use_case_examples/deployment/breast_cancer_builtin/README.md)
 
 ## Challenges in Scaling: Next Steps

@@ -27,6 +27,11 @@ Logistic Regression uses One Vs All approach to model multiclass outputs. While 
 
 The good part of this approach is that the predictions are returned in FHE to the client. Hence the server not only does not get the plaintext features but it also does not get the plaintext prediction of the song which gives strong privacy.
 
+#### MFCC features
+MFCC stands for Mel Frequency Cepstral Coefficients. MFCCs are widely used as discriminating features for audio datasets. 
+![mfcc](mfcc_space.png)
+The above plot depicts the discriminating feature of MFCC of the `fma` dataset where two different genre form different clusters.
+
 ## Using the Repository
 
 To run the notebook just modify the constants in the constants section.

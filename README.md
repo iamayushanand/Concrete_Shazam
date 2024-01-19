@@ -65,5 +65,14 @@ The Results here are reported for a 1000-song subset of the `fma_small.zip`, The
 | 0.01    | 95.3          | 97.4          | 0.46                  |
 | 0.02    | 94.8          | 97.1          | 0.45                  |
 
+### Results on Drawn-out set Evaluation
+
+In this case the model is trained on the first 15 seconds of all the song samples and then evaluated on the later 15 seconds(fma dataset provides clips of 30sec). The Results are reported for a 1000-song subset.
+
+| Model | Top-1 Accuracy | Top-3 Accuracy | Inference Time(per sample) in FHE |
+|----------------|----------------|----------------|-----------------------|
+| Concrete LR   | 74.2          | 77.2          | 0.41                  |
+| SkLearn  LR  |  75.3         | 77.8         | 0.000233                  |
+
 
 
